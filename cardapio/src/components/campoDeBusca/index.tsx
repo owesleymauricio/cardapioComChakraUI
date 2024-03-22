@@ -12,7 +12,7 @@ const CampoDeBusca = ({ textoBuscaDigitado, handleBusca }:any) => {
               style={{
                 width: "24px", // largura da imagem
                 height: "24px", // altura da imagem
-                backgroundImage: `url(${Lupa})`,
+                backgroundImage: `url(assets/lupa.png)`,
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat"
               }}
@@ -20,10 +20,14 @@ const CampoDeBusca = ({ textoBuscaDigitado, handleBusca }:any) => {
           }
         />
         <Input
+          border={'1px solid gray'}
+         
           type="text"
           value={textoBuscaDigitado}
           onChange={(event) => handleBusca(event.target.value)}
           placeholder="Pesquise aqui um dos pratos do nosso cardápio"
+          _placeholder={{ color: 'gray.500' }}
+          focusBorderColor="transparent"
         />
       </InputGroup>
     </Box>

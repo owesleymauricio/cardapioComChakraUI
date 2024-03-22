@@ -32,7 +32,7 @@ import saladaNicoise from "@/../public/assets/salada-nicoise.jpg";
 
 
 
-export const produtos = [
+export const produtos= [
   {
     id: 1,
     nome: "Espaguete",
@@ -40,7 +40,7 @@ export const produtos = [
     preco: 20.0,
     descricao:
       "Um delicioso espaguete que pode ser combinado com diversos molhos, como bolonhesa, carbonara, alho e oleo e pesto",
-    imagem: espaguete,
+    imagem: 'assets/espaguete.jpg',
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ export const produtos = [
     preco: 25.0,
     descricao:
       "Uma maravilhosa lasanha com recheios variados como carne moída, frango, presunto e queijo, legumos e molho branco ou vermelho",
-    imagem: lasanha,
+    imagem: 'assets/lasanha.jpg',
   },
   {
     id: 3,
@@ -58,7 +58,7 @@ export const produtos = [
     preco: 24.25,
     descricao:
       "Uma massa recheada com diferentes ingredientes como queijo, carne, espinafre ou cogumelos",
-    imagem: ravioli,
+    imagem: 'assets/ravioli.jpg',
   },
   {
     id: 4,
@@ -67,7 +67,7 @@ export const produtos = [
     preco: 25.5,
     descricao:
       "Uma massa simples servida com diversos tipos de molhos como bolonhesa, carbonara, alfredo, pesto ou manteiga e sálvia",
-    imagem: capeletti,
+    imagem: 'assets/capeletti.jpg',
   },
   {
     id: 5,
@@ -76,7 +76,7 @@ export const produtos = [
     preco: 8.99,
     descricao:
       "Massa feita de farinha de trigo e ovos, servida com molhos simples ou elaborados como, manteiga e parmesão, frango ao creme ou camarão alho e oleo",
-    imagem: nhoque,
+    imagem: 'assets/nhoque.jpg',
   },
   {
     id: 6,
@@ -85,7 +85,7 @@ export const produtos = [
     preco: 9.2,
     descricao:
       "Prato original da Itália, que leva fatias de pão italiano torrado, tomate picado, alho, manjericão e azeite",
-    imagem: bruschetta,
+    imagem:'assets/bruschetta.jpg' ,
   },
   {
     id: 7,
@@ -94,7 +94,7 @@ export const produtos = [
     preco: 32.0,
     descricao:
       "Prato de origem francesa, que leva fatias finas de salmão cru, alcaparras, queijo parmesão ralado e molho mostarda",
-    imagem: carpaccio,
+    imagem: 'assets/carpaccio.jpg',
   },
   {
     id: 8,
@@ -103,7 +103,7 @@ export const produtos = [
     preco: 65.0,
     descricao:
       "Um prato tipico do leste da Espanha, que leva arroz e frutos do mar como mariscos, polvo, camarões, mexilhões e lulas",
-    imagem: paella,
+    imagem: 'assets/paella.jpg',
   },
   {
     id: 9,
@@ -112,7 +112,7 @@ export const produtos = [
     preco: 62.0,
     descricao:
       "Prato tipico do Japão, que leva camarões empanados em massa tempurá, maionese e molho picante",
-    imagem: ebiSpicy,
+    imagem: 'assets/ebi-spicy.jpg',
   },
   {
     id: 10,
@@ -121,7 +121,7 @@ export const produtos = [
     preco: 18.99,
     descricao:
       "Um irrestivel purê de batata francês com queijo gruyere e meia cura",
-    imagem: aligot,
+    imagem: 'assets/aligot.jpg',
   },
   {
     id: 11,
@@ -130,7 +130,7 @@ export const produtos = [
     preco: 41.99,
     descricao:
       "Com pouca gordura e fibras, além de muito macia, essa carne vai bem com diversos tipos de molhos",
-    imagem: fileMignon,
+    imagem: 'assets/file-mignon.jpg',
   },
   {
     id: 12,
@@ -139,7 +139,7 @@ export const produtos = [
     preco: 35.99,
     descricao:
       "Uma execelente carne que tem uma capa de gordura e fibras generosas que acentuam o sabor e a maciez do corte",
-    imagem: picanha,
+    imagem: 'assets/picanha.png',
   },
   {
     id: 13,
@@ -148,7 +148,7 @@ export const produtos = [
     preco: 39.99,
     descricao:
       "Uma carne que tem um ótimo nível de marmoreio e um sabor delicado, podendendo ser feita tanto na grelha ou na frigideira",
-    imagem: bifeAncho,
+    imagem: 'assets/bife-ancho.jpg',
   },
   {
     id: 14,
@@ -157,7 +157,7 @@ export const produtos = [
     preco: 159.99,
     descricao:
       "É uma carne que combina duas texturas e sabores diferentes em uma só peça, e pode ser feita na grelha ou no forno",
-    imagem: tomahwankSteak,
+    imagem: 'assets/tomahawk-steak.jpg',
   },
   {
     id: 15,
@@ -166,7 +166,7 @@ export const produtos = [
     preco: 59.99,
     descricao:
       "Parte dianteira da costela bovina, muito suculenta e saborosa, que pode ser feita na grelha ou no forno",
-    imagem: primeRib,
+    imagem: 'assets/prime-rib.jpg',
   },
   {
     id: 16,
@@ -175,7 +175,7 @@ export const produtos = [
     preco: 15.99,
     descricao:
       "Sobremesa italiana que leva pão de ló, café, queijo mascarpone, ovos, açucar e cacau em pó",
-    imagem: tiramisu,
+    imagem: 'assets/tiramisu.jpg',
   },
   {
     id: 17,
@@ -184,7 +184,7 @@ export const produtos = [
     preco: 8.99,
     descricao:
       "Típica sobremesa dos Estados Unidos, que leva bolo, cream cheese e calda de frutas",
-    imagem: cheesecake,
+    imagem: 'assets/cheesecake.jpg',
   },
   {
     id: 18,
@@ -193,7 +193,7 @@ export const produtos = [
     preco: 9.99,
     descricao:
       "Uma sobremesa inglesa, feita a base de biscoito triturado com manteiga, uma camada de doce de leite, banana fatiada e chantilly",
-    imagem: banoffee,
+    imagem: 'assets/banoffee.png',
   },
   {
     id: 19,
@@ -202,7 +202,7 @@ export const produtos = [
     preco: 9.99,
     descricao:
       "Sobremesa de origem francesa, feita com massa folhada crocante e recheio cremoso de baunilha, chocolate ou frutas e açucar de confeiteiro",
-    imagem: milFolhas,
+    imagem: 'assets/mil-folhas.jpg',
   },
   {
     id: 20,
@@ -211,7 +211,7 @@ export const produtos = [
     preco: 5.99,
     descricao:
       "Sobremesa cremosa e gelada muito popular no Brasil, feita com leite condesado, leite e ovos",
-    imagem: pudim,
+    imagem: 'assets/pudim.jpg',
   },
   {
     id: 21,
@@ -220,7 +220,7 @@ export const produtos = [
     preco: 12.99,
     descricao:
       "Cerveja artesanal de produção alemã que leva ingredientes nobres como malte, lúpulu, água e levedura ",
-    imagem: cerveja,
+    imagem: 'assets/cerveja.jpg',
   },
   {
     id: 22,
@@ -229,7 +229,7 @@ export const produtos = [
     preco: 7.99,
     descricao:
       "Um refrescante refrigerante de cola com pequenos pedaços de limão e raspas de hortelã",
-    imagem: refrigerante,
+    imagem: 'assets/refrigerante.jpg',
   },
   {
     id: 23,
@@ -238,7 +238,7 @@ export const produtos = [
     preco: 6.99,
     descricao:
       "Mais puro suco de laranjas holandesas frescas e levemente adocicada",
-    imagem: suco,
+    imagem: 'assets/suco.jpg',
   },
   {
     id: 24,
@@ -247,7 +247,7 @@ export const produtos = [
     preco: 17.99,
     descricao:
       "Um poderoso whiskey sabor bourbon, envelhecido em barris de carvalho branco carbonizado",
-    imagem: whiskey,
+    imagem: 'assets/whiskey.jpg',
   },
   {
     id: 25,
@@ -255,7 +255,7 @@ export const produtos = [
     categoria: "Bebidas",
     preco: 4.99,
     descricao: "Água mineral saborizada com limão siciliano",
-    imagem: agua,
+    imagem: 'assets/agua.jpg',
   },
   {
     id: 26,
@@ -264,7 +264,7 @@ export const produtos = [
     preco: 19.8,
     descricao:
       "Salada preparada com alface-romana, torrada, queijo parmesão e molho Ceasar",
-    imagem: saladaCeasar,
+    imagem: 'assets/salada-ceasar.jpg',
   },
   {
     id: 27,
@@ -273,7 +273,7 @@ export const produtos = [
     preco: 22.0,
     descricao:
       "Uma salada italiana, feita com mussarela fresca, tomate e manjericão, temperada com sal e azeite",
-    imagem: saladaCaprese,
+    imagem: 'assets/salada-caprese.jpg',
   },
   {
     id: 28,
@@ -282,7 +282,7 @@ export const produtos = [
     preco: 40.0,
     descricao:
       "Criada em 1893 no Waldorf Hotel, essa salada leva uma fatia de maça e aipo, nozes cortadas, maionese",
-    imagem: saladaWaldorf,
+    imagem: 'assets/salada-waldorf.jpg',
   },
   {
     id: 29,
@@ -291,7 +291,7 @@ export const produtos = [
     preco: 13.99,
     descricao:
       "Versão original da salada que leva tomate, pepino, pimentão, cebola roxa, pimenta-do-reino, orégano, azeite e queijo feta",
-    imagem: saladaGrega,
+    imagem: 'assets/salada-grega.jpg',
   },
   {
     id: 30,
@@ -300,6 +300,6 @@ export const produtos = [
     preco: 22.99,
     descricao:
       "Salada tradicional da cidade de Nice, feita com tomate, ovos cozidos, azeitona niçoise, azeite e atum",
-    imagem: saladaNicoise,
+    imagem: 'assets/salada-nicoise.jpg',
   },
 ];

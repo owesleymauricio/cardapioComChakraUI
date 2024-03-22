@@ -8,13 +8,14 @@ function Capa() {
         bg={'#DAA520'}
         w={'100%'}
         position="relative"
-        maxWidth={'1200px'} 
+        maxWidth={'1000px'} 
         margin={'auto'} // Para centralizar a caixa pai horizontalmente
         >
             <Box
-           
+                maxW={'1000'}
                 backgroundImage='assets/banner.png'
-                backgroundSize="100%"
+                backgroundSize="100% 100%"
+                bgRepeat={'no-repeat'}
                 width="100%"
                 height="400px"
                 position="relative"

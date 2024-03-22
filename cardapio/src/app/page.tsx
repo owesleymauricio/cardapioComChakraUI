@@ -11,8 +11,8 @@ import {
 import Cards from '@/components/cards'
 import Categorias from '@/components/categorias'
 import CampoDeBusca from '@/components/campoDeBusca';
-import { useRouter } from "next/router";
 import Capa from "@/components/capa";
+
 
 export default function Home() {
  
@@ -41,8 +41,8 @@ export default function Home() {
     maxW={'1200px'}
     mt={'20px'}
     mb={'20px'}
-    mr={'15px'}
-    ml={'15px'}
+    mr={'auto'}
+    ml={'auto'}
     >
       <Capa/>
 
@@ -62,11 +62,13 @@ export default function Home() {
           as="h2" fontSize="2xl" mb={4}>Cardápio</Heading>
           <Box display="grid" gridTemplateColumns="repeat(auto-fill, minmax(250px, 1fr))" gap={4}>
             {dadosFiltrados.map((produto) => (
-              <Cards key={produto.imagem} produto={produto} />
+              <Cards  key={produto.id} produto={produto} />
             ))}
           </Box>
         </Box>
       </Box>
+
+     
     </Flex>
   );
 }
